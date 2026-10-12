@@ -267,8 +267,8 @@ namespace AnomaliesExpected
                     }
                 };
                 NGizmos.Insert(Mathf.Clamp(0, index, NGizmos.Count()), gizmo);
+                __result = NGizmos;
             }
-            __result = NGizmos;
         }
 
         public static bool CLED_Choices_Prefix(ref IEnumerable<DiaOption> __result, ChoiceLetter_EntityDiscovered __instance)
